@@ -1,1 +1,10 @@
 
+Multi-player game
+
+Add classes
+
+
+Add core game features:
+Health bar
+Projectile spawns
+Attacks
