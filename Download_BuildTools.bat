@@ -1,0 +1,3 @@
+@echo off
+
+Echo Downloading BuildTools from Github repo...
