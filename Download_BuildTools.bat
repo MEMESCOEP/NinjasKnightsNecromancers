@@ -1,6 +1,8 @@
 @echo off
 Mkdir buildtools
 Cd buildtools
+Mkdir py2exe
+Cd py2exe
 Echo Downloading BuildTools from Github repo...
 
 
