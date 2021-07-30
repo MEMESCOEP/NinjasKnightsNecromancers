@@ -1,10 +1,4 @@
-##Python 2
-#import urllib
-#url = "https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz"
-#urllib.urlretrieve(url, filename="../enron_mail_20150507.tgz") 
-#print "download complete!"
-
-##Python 3
+#Python 3
 import urllib.request
 url = "https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz"
 print ("download start!")
