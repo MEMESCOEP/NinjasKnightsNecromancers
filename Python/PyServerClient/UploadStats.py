@@ -1,24 +1,24 @@
-import socket                   # Import socket module
+import socket
 
-s = socket.socket()             # Create a socket object
-host = socket.gethostname()     # Get local machine name
-port = 60000                    # Reserve a port for your service.
+TCP_IP = 'localhost'
+TCP_PORT = 9001
+BUFFER_SIZE = 1024
 
-s.connect((host, port))
-s.send("Hello server!")
-
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((TCP_IP, TCP_PORT))
 with open('received_file', 'wb') as f:
     print 'file opened'
     while True:
-        print('receiving data...')
-        data = s.recv(1024)
+        #print('receiving data...')
+        data = s.recv(BUFFER_SIZE)
         print('data=%s', (data))
         if not data:
+            f.close()
+            print 'file close()'
             break
         # write data to a file
         f.write(data)
 
-f.close()
 print('Successfully get the file')
 s.close()
 print('connection closed')
