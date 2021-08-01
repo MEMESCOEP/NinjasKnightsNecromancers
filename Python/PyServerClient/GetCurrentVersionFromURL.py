@@ -48,8 +48,12 @@ def GetDeeta():
 
 		print("Done")
 		retry = 0
-		return deeta
-		print (deeta)
+		fh = open('currver.txt', 'w+')
+		fh.write(deeta)
+		fh.close()
+                
+
+		#print (deeta)
 	except:
 		print ("Failed to get version information! retrying...")
 		if retry >= 1:
