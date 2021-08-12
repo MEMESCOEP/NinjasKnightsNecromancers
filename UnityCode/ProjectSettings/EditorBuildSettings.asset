@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 78f82dc26c05a174aa1a214989263ce2
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/ChooseLevel.unity
+    guid: 7167f096b5bea274084e105afb863d1e
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Level1.unity
+    guid: f9932cc447c2c0b489f7fe04352db427
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Level3.unity
+    guid: c439b4abff8bc9440976cb919e945d9a
+  - enabled: 1
+    path: Assets/Scenes/Campaign/Campaign.unity
+    guid: dd3cae97252fb3f468a2eaffcf300aef
+  - enabled: 1
+    path: Assets/Scenes/Campaign/clvl0.unity
+    guid: d2d6f27729fe9824d901835cd2efbe7c
+  m_configObjects: {}
