@@ -1,6 +1,6 @@
 Instructions:
 
-In order to play the game in this early stage, you need to specify a working directory in the command line args with "-WorkingDirectory <PATH>".
+In order to play the game in this early stage, you need to specify a working directory in the command line args with "-WorkingDirectory {PATH}".
 this will look something like "-WorkingDirectory C:\Users\USERNAME\Appdata\NinjasKnightsNecromancers\GameFiles\"
 
 this should allow saves and other core files to be generated.
