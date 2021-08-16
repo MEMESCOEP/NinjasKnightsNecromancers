@@ -5,4 +5,4 @@ this will look something like "-WorkingDirectory C:\Users\USERNAME\Appdata\Ninja
 
 this should allow saves and other core files to be generated.
 
-NOTE: The WorkingDirectory path must have the GameFiles folder at the end, otherwise the game can't find the "saves" folder
+NOTE: The WorkingDirectory path must have the "GameFiles" folder specified at the end, otherwise the game can't find the "saves" folder
