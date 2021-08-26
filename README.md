@@ -3,6 +3,6 @@
 
 <p>
 Join the Discord!
-<strong><bold>https://discord.gg/zegHNX6gqX</bold></strong>
+<strong><bold>>>     https://discord.gg/zegHNX6gqX</bold></strong>
 </p>
 
