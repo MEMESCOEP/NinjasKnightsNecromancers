@@ -1,4 +1,4 @@
-# Ninjas Knights @ Necromancers
+# Ninjas Knights & Necromancers
 NKN game repository
 
 
