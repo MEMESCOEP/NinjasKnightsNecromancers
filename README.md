@@ -1,5 +1,5 @@
 # Ninjas Knights & Necromancers
-NKN game repository
+<p><italic>NKN game repository</italic></p>
 
 <p>
 Join the Discord!
